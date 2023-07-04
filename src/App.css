@@ -1,0 +1,8 @@
+.form-control:focus {
+  border-color: #00aec9;
+  box-shadow: 0 0 0 0.2rem rgba(19, 162, 228, 0.25);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  color: #00aec9;
+}
